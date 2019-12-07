@@ -1,0 +1,45 @@
+{
+  "name": "reactpro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "native-base": "^2.13.8",
+    "react": "16.9.0",
+    "react-countup": "^4.2.3",
+    "react-native": "0.61.5",
+    "react-native-button-component": "^0.2.28",
+    "react-native-countdown-component": "^2.6.0",
+    "react-native-counter-timer": "^1.1.1",
+    "react-native-filesystem": "^0.1.0",
+    "react-native-flip-timer": "0.0.4",
+    "react-native-fs": "^2.16.2",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-material-buttons": "^0.6.0",
+    "react-native-vector-icons": "6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
+    "rn-button": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/runtime": "7.7.4",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.7.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.3",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
