@@ -15,6 +15,8 @@ import RNFS from 'react-native-fs'
 import CountDown from 'react-native-countdown-component';
 import { Stopwatch, Timer } from 'react-native-stopwatch-timer'
 import BackgroundTimer from 'react-native-background-timer';
+import Mailer from 'react-native-mail'
+
 
 
 const timer = {
@@ -213,6 +215,65 @@ export default class Game extends Component {
   }
  
   resetStopwatch() {
+    RNFS.readDir(RNFS.ExternalDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
+  .then((result) => {
+    console.log('GOT RESULT', result);
+    console.log('result.path: ', result.path);
+    Mailer.mail({
+      subject: 'need help',
+      recipients: ['yasarbunyamin20@gmail.com'],
+      body: '<b>A Bold Body</b>',
+      isHTML: true,
+      attachment: {
+        path:  "/storage/emulated/0/Android/data/com.reactpro/files/test.txt",  // The absolute path of the file from which to read data.
+        type: 'txt',   // Mime Type: jpg, png, doc, ppt, html, pdf, csv
+        name: '',   // Optional: Custom filename for attachment
+      }
+    }, (error, event) => {
+      Alert.alert(
+        error,
+        event,
+        [
+          {text: 'Ok', onPress: () => console.log('OK: Email Error Response')},
+          {text: 'Cancel', onPress: () => console.log('CANCEL: Email Error Response')}
+        ],
+        { cancelable: true }
+      )
+    });
+    // stat the first file
+    return Promise.all([RNFS.stat(result[0].path), result[0].path]);
+  })
+  .then((statResult) => {
+    if (statResult[0].isFile()) {
+      // if we have a file, read it
+      return RNFS.readFile(statResult[1], 'utf8');
+    }
+ 
+    return 'no file';
+  })
+  .then((contents) => {
+    // log the file contents
+    console.log(contents);
+
+
+
+
+    // const to = ['yasarbunyamin20@gmail.com'] // string or array of email addresses
+    // email(to, {
+    //     // Optional additional arguments
+    //     // cc: ['bazzy@moo.com', 'doooo@daaa.com'], // string or array of email addresses
+    //     // bcc: 'mee@mee.com', // string or array of email addresses
+    //     subject: 'Show how to use',
+    //     body: contents,
+    //     attachment: {
+    //       path : RNFS.ExternalDirectoryPath + "test.txt",
+    //       type : "txt"
+    //     }
+    // }).catch(console.error)
+  })
+  .catch((err) => {
+    console.log(err.message, err.code);
+  });
     this.setState({stopwatchStart: false, stopwatchReset: true});
   }
   
