@@ -64,7 +64,7 @@ export default class Game extends Component {
   componentDidMount() {
     var path = RNFS.ExternalDirectoryPath + '/test.txt';
 
-    RNFS.writeFile(path,  'utf8')
+    RNFS.writeFile(path,  '\n')
     .then((success) => {
       console.log('FILE WRITTEN!');
     })
@@ -89,7 +89,7 @@ export default class Game extends Component {
     if(this.state.stopwatchStart){
       this.setState({ homeScore: this.state.homeScore + plusScore, plusScore })
     }
-    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + plusScore + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + plusScore + "pt," + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
     this.setState({actionType:"score"})
 
     // write the file
@@ -101,7 +101,7 @@ export default class Game extends Component {
     if(this.state.stopwatchStart){
       this.setState({ awayScore: this.state.awayScore + plusScore, plusScore })
     }
-    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + plusScore + "," + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() +","+ plusScore + "pt," + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
     this.setState({actionType:"score"})
 
     if(this.state.stopwatchStart){
@@ -129,7 +129,7 @@ export default class Game extends Component {
       this.state.awaySubstition.push(this.state.scoredPlayer)
     }
     this.setState({actionType:"substution"})
-    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + this.state.scoredPlayer + '-' + this.state.substutionPlayer + "," + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n" 
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + ",sub," + this.state.scoredPlayer + ',' + this.state.substutionPlayer + "," + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n" 
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }
@@ -185,7 +185,7 @@ export default class Game extends Component {
   }
 
   defAction = () => {
-    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "def," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "defreb," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"def"})
@@ -193,7 +193,7 @@ export default class Game extends Component {
   }
 
   offAction = () => {
-    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "off," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "offreb," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"off"})
@@ -220,7 +220,7 @@ export default class Game extends Component {
     console.log('GOT RESULT', result);
     console.log('result.path: ', result.path);
     Mailer.mail({
-      subject: 'need help',
+      subject: 'Basketball Analysis',
       recipients: ['yasarbunyamin20@gmail.com'],
       body: '<b>A Bold Body</b>',
       isHTML: true,

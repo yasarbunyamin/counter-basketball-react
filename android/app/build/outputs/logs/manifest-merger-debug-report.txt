@@ -1,243 +1,246 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-background-timer] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-fs] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-gesture-handler] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/f30eb77b61930ceed82ef38de1d644d7/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r245459] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/235aabaaaf27c3249b44bcdec33ebddb/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-linear-gradient] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b9bf1bf97c070be513dfb239393cdf99/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/94b9a6317d52ab5f79a968cbffb70c8c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5eb0a251d25debf2ac6e5a64789779ae/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4a2f839029570b519affbb45dd22810e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0c8e3a454399fd60679af8d1af215796/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1f0a70ecae63ecb0e3deb0134062e221/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/d5ffae1ea545bad9420280bf10df9cf6/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/de8023899562e31b5dc5fc7d4db266a1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/61bee698e41156a5d616539a8fb87976/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b3124b81942f2f57844e586799d4c5c7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/86d60e32e1e239edfca8addf4305f247/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0eb513501986cdba869c7eca22835c76/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3bf1bd9e1bf63288a14d045f3460dcfd/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/ace3bc6e15428031720b394488d59884/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1684dccdd33033e973d2be367a3fa112/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/2cc7c67bc546800f39c99fa5a79865d1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/8fdf03386f82f036baf530ae5c6ecb83/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1b961b4f1ad3b81756ccece56b4be05e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/e780a65299933b7035aaa21d3be2583d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/daa75ed9554742ee9ddfd3355ce79b77/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4e44c2a37ab813bc8acb78ca689b10c7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/07b631a6c4ccf254ea95e4ee25f4ab01/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/696a9ece55942e2b5cbc1b3bdcae276d/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/7589571a639005f07b26ce689b36db8a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/280c6f990e3589bfff49abf5ed1a9c1e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/553330a9fe391fe3377e060f9a76c125/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bd1529327654e199621efe216fa82138/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b6bfd492a3e3164e4fe55dd8a3a8f763/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/c9d6adf74d8ff13e86a22ea09856298d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5d33e43d13eea6443a8d6355c9a6e5fb/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/db0aac633b55ca77ebdff160b2e00f7d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/48f92c4aad9501eb0f67e710a490ee5f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bdfeb40f64209f4d0a5e9653e26cab43/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3486df7348f3f82c62ce5a89ddedea04/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/burakaslan/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-background-timer] /home/burakaslan/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-fs] /home/burakaslan/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] /home/burakaslan/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-mail] /home/burakaslan/counter-basketball-react/node_modules/react-native-mail/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/83fa0a09a350f17753b0982758da6fbe/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/0b7ce0dffdc0f06c27a0e7c1d3912e6d/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /home/burakaslan/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69cc20f534c0b43afc7e87658e6b0067/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/9b16bec37fc471a4967260fb8855767e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6dfff49f6de1556722d681149e4f0247/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e4256c8955b9bd7164dece35bfd3c4f8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d308f5c8f43c1295919b2806615ea675/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/16e42f98a430d7d6c538500ce40a569a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6dc701037c8cf31f6f44875e737582e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3ba5e5938074afb4de66957302473a1b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b4e1f2f2631f2ca0ec034c9a47991b44/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/1bbb86bedff2b2e9fa1fe04017796e7c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6c20f3c37bef121ee50b93f4ed86269/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/4b2b44c7ff78fefdb1b12620174762f6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/05e2a42963a3c521f9005402b219e084/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/8b9971ce18bb0c83dd9e8cd23aad5334/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/50acd01c771df258fe71001abd3a9fad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/7d110a592b49705356193619c550efb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/fbfeda9eef6538fb8bdb72ca8beae1eb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2d0719befd8ee9f6d340f69f0f883bf0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/444f86d2467239afb2a026d53ebf8dbe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b650570741ef3b8dec51d0fa0a2296c5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/37ecd49ce5347d384ba47aea4625b60c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/eefd3dc9b1d4cb032de1a7f69fbce942/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6e0f834917ee0f23e5ad931a547a87db/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a420597fc9651fe7180295f07b907208/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69d37d7a8631ddbe7e286e190d36e181/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3f000290c7ef7aa25ee87c09f71964a8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2bd0b12b4e596ed35c853fe0394e824d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/5b8697642628bcfbc64d9d88cac3f757/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cae2a91a3ccaf42c3e248414847b14c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d15bb88eb94f90334f3d0d5860136dd1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/bcd2a69ac41513cd05cf83d9064826ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e452dd798df80d573e01fbff876809aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b67271ec52d13bbf35f7c7a9b4535151/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/87c88d8f54c09e4c40c3d5767c52876b/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:2:3-25
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:2:3-25
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/f30eb77b61930ceed82ef38de1d644d7/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/f30eb77b61930ceed82ef38de1d644d7/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/61bee698e41156a5d616539a8fb87976/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/61bee698e41156a5d616539a8fb87976/AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/696a9ece55942e2b5cbc1b3bdcae276d/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/696a9ece55942e2b5cbc1b3bdcae276d/AndroidManifest.xml:22:5-23:19
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.61.5] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/83fa0a09a350f17753b0982758da6fbe/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/83fa0a09a350f17753b0982758da6fbe/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b4e1f2f2631f2ca0ec034c9a47991b44/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b4e1f2f2631f2ca0ec034c9a47991b44/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6e0f834917ee0f23e5ad931a547a87db/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6e0f834917ee0f23e5ad931a547a87db/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:75-114
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:54-74
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:18-53
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.reactpro.MainActivity
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-background-timer] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-background-timer] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fs] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fs] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/f30eb77b61930ceed82ef38de1d644d7/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/f30eb77b61930ceed82ef38de1d644d7/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/235aabaaaf27c3249b44bcdec33ebddb/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/235aabaaaf27c3249b44bcdec33ebddb/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-linear-gradient] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-linear-gradient] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b9bf1bf97c070be513dfb239393cdf99/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b9bf1bf97c070be513dfb239393cdf99/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/94b9a6317d52ab5f79a968cbffb70c8c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/94b9a6317d52ab5f79a968cbffb70c8c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5eb0a251d25debf2ac6e5a64789779ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5eb0a251d25debf2ac6e5a64789779ae/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4a2f839029570b519affbb45dd22810e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4a2f839029570b519affbb45dd22810e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0c8e3a454399fd60679af8d1af215796/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0c8e3a454399fd60679af8d1af215796/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1f0a70ecae63ecb0e3deb0134062e221/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1f0a70ecae63ecb0e3deb0134062e221/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/d5ffae1ea545bad9420280bf10df9cf6/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/d5ffae1ea545bad9420280bf10df9cf6/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/de8023899562e31b5dc5fc7d4db266a1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/de8023899562e31b5dc5fc7d4db266a1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/61bee698e41156a5d616539a8fb87976/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/61bee698e41156a5d616539a8fb87976/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b3124b81942f2f57844e586799d4c5c7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b3124b81942f2f57844e586799d4c5c7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/86d60e32e1e239edfca8addf4305f247/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/86d60e32e1e239edfca8addf4305f247/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0eb513501986cdba869c7eca22835c76/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/0eb513501986cdba869c7eca22835c76/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3bf1bd9e1bf63288a14d045f3460dcfd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3bf1bd9e1bf63288a14d045f3460dcfd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/ace3bc6e15428031720b394488d59884/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/ace3bc6e15428031720b394488d59884/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1684dccdd33033e973d2be367a3fa112/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1684dccdd33033e973d2be367a3fa112/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/2cc7c67bc546800f39c99fa5a79865d1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/2cc7c67bc546800f39c99fa5a79865d1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/8fdf03386f82f036baf530ae5c6ecb83/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/8fdf03386f82f036baf530ae5c6ecb83/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1b961b4f1ad3b81756ccece56b4be05e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/1b961b4f1ad3b81756ccece56b4be05e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/e780a65299933b7035aaa21d3be2583d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/e780a65299933b7035aaa21d3be2583d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/daa75ed9554742ee9ddfd3355ce79b77/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/daa75ed9554742ee9ddfd3355ce79b77/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4e44c2a37ab813bc8acb78ca689b10c7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/4e44c2a37ab813bc8acb78ca689b10c7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/07b631a6c4ccf254ea95e4ee25f4ab01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/07b631a6c4ccf254ea95e4ee25f4ab01/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/696a9ece55942e2b5cbc1b3bdcae276d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/696a9ece55942e2b5cbc1b3bdcae276d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/7589571a639005f07b26ce689b36db8a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/7589571a639005f07b26ce689b36db8a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/280c6f990e3589bfff49abf5ed1a9c1e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/280c6f990e3589bfff49abf5ed1a9c1e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/553330a9fe391fe3377e060f9a76c125/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/553330a9fe391fe3377e060f9a76c125/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bd1529327654e199621efe216fa82138/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bd1529327654e199621efe216fa82138/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b6bfd492a3e3164e4fe55dd8a3a8f763/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b6bfd492a3e3164e4fe55dd8a3a8f763/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/c9d6adf74d8ff13e86a22ea09856298d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/c9d6adf74d8ff13e86a22ea09856298d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5d33e43d13eea6443a8d6355c9a6e5fb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5d33e43d13eea6443a8d6355c9a6e5fb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/db0aac633b55ca77ebdff160b2e00f7d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/db0aac633b55ca77ebdff160b2e00f7d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/48f92c4aad9501eb0f67e710a490ee5f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/48f92c4aad9501eb0f67e710a490ee5f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bdfeb40f64209f4d0a5e9653e26cab43/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/bdfeb40f64209f4d0a5e9653e26cab43/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3486df7348f3f82c62ce5a89ddedea04/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/3486df7348f3f82c62ce5a89ddedea04/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/burakaslan/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/burakaslan/counter-basketball-react/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] /home/burakaslan/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] /home/burakaslan/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/burakaslan/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /home/burakaslan/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/burakaslan/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/burakaslan/counter-basketball-react/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-mail] /home/burakaslan/counter-basketball-react/node_modules/react-native-mail/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-mail] /home/burakaslan/counter-basketball-react/node_modules/react-native-mail/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/83fa0a09a350f17753b0982758da6fbe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/83fa0a09a350f17753b0982758da6fbe/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/0b7ce0dffdc0f06c27a0e7c1d3912e6d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/0b7ce0dffdc0f06c27a0e7c1d3912e6d/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/burakaslan/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/burakaslan/counter-basketball-react/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69cc20f534c0b43afc7e87658e6b0067/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69cc20f534c0b43afc7e87658e6b0067/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/9b16bec37fc471a4967260fb8855767e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/9b16bec37fc471a4967260fb8855767e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6dfff49f6de1556722d681149e4f0247/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6dfff49f6de1556722d681149e4f0247/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e4256c8955b9bd7164dece35bfd3c4f8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e4256c8955b9bd7164dece35bfd3c4f8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d308f5c8f43c1295919b2806615ea675/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d308f5c8f43c1295919b2806615ea675/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/16e42f98a430d7d6c538500ce40a569a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/16e42f98a430d7d6c538500ce40a569a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6dc701037c8cf31f6f44875e737582e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6dc701037c8cf31f6f44875e737582e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3ba5e5938074afb4de66957302473a1b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3ba5e5938074afb4de66957302473a1b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b4e1f2f2631f2ca0ec034c9a47991b44/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b4e1f2f2631f2ca0ec034c9a47991b44/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/1bbb86bedff2b2e9fa1fe04017796e7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/1bbb86bedff2b2e9fa1fe04017796e7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6c20f3c37bef121ee50b93f4ed86269/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a6c20f3c37bef121ee50b93f4ed86269/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/4b2b44c7ff78fefdb1b12620174762f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/4b2b44c7ff78fefdb1b12620174762f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/05e2a42963a3c521f9005402b219e084/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/05e2a42963a3c521f9005402b219e084/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/8b9971ce18bb0c83dd9e8cd23aad5334/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/8b9971ce18bb0c83dd9e8cd23aad5334/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/50acd01c771df258fe71001abd3a9fad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/50acd01c771df258fe71001abd3a9fad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/7d110a592b49705356193619c550efb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/7d110a592b49705356193619c550efb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/fbfeda9eef6538fb8bdb72ca8beae1eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/fbfeda9eef6538fb8bdb72ca8beae1eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2d0719befd8ee9f6d340f69f0f883bf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2d0719befd8ee9f6d340f69f0f883bf0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/444f86d2467239afb2a026d53ebf8dbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/444f86d2467239afb2a026d53ebf8dbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b650570741ef3b8dec51d0fa0a2296c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b650570741ef3b8dec51d0fa0a2296c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/37ecd49ce5347d384ba47aea4625b60c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/37ecd49ce5347d384ba47aea4625b60c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/eefd3dc9b1d4cb032de1a7f69fbce942/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/eefd3dc9b1d4cb032de1a7f69fbce942/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6e0f834917ee0f23e5ad931a547a87db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/6e0f834917ee0f23e5ad931a547a87db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a420597fc9651fe7180295f07b907208/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/a420597fc9651fe7180295f07b907208/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69d37d7a8631ddbe7e286e190d36e181/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/69d37d7a8631ddbe7e286e190d36e181/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3f000290c7ef7aa25ee87c09f71964a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/3f000290c7ef7aa25ee87c09f71964a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2bd0b12b4e596ed35c853fe0394e824d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/2bd0b12b4e596ed35c853fe0394e824d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/5b8697642628bcfbc64d9d88cac3f757/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/5b8697642628bcfbc64d9d88cac3f757/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cae2a91a3ccaf42c3e248414847b14c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/cae2a91a3ccaf42c3e248414847b14c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d15bb88eb94f90334f3d0d5860136dd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/d15bb88eb94f90334f3d0d5860136dd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/bcd2a69ac41513cd05cf83d9064826ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/bcd2a69ac41513cd05cf83d9064826ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e452dd798df80d573e01fbff876809aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/e452dd798df80d573e01fbff876809aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b67271ec52d13bbf35f7c7a9b4535151/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/b67271ec52d13bbf35f7c7a9b4535151/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/87c88d8f54c09e4c40c3d5767c52876b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/burakaslan/.gradle/caches/transforms-2/files-2.1/87c88d8f54c09e4c40c3d5767c52876b/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /home/burakaslan/counter-basketball-react/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-background-timer] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:11:5-68
+ADDED from [:react-native-background-timer] /home/burakaslan/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from [:react-native-background-timer] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:11:22-65
+		ADDED from [:react-native-background-timer] /home/burakaslan/counter-basketball-react/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:react-native-fs] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:11:5-81
+ADDED from [:react-native-fs] /home/burakaslan/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from [:react-native-fs] /Users/bunyaminyasar/Desktop/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/lıbrary_manıfest/debug/AndroidManifest.xml:11:22-78
+		ADDED from [:react-native-fs] /home/burakaslan/counter-basketball-react/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78
