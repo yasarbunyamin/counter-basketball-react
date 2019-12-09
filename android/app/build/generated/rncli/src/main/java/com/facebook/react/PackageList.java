@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import com.reactpro.BuildConfig;
 import com.reactpro.R;
 
-// react-native-filesystem
-import com.benwixen.rnfilesystem.RNFileSystemPackage;
+// react-native-background-timer
+import com.ocetnik.timer.BackgroundTimerPackage;
 // react-native-fs
 import com.rnfs.RNFSPackage;
 // react-native-gesture-handler
@@ -69,7 +69,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
-      new RNFileSystemPackage(),
+      new BackgroundTimerPackage(),
       new RNFSPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
