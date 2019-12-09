@@ -64,7 +64,7 @@ export default class Game extends Component {
   componentDidMount() {
     var path = RNFS.ExternalDirectoryPath + '/test.txt';
 
-    RNFS.writeFile(path, "BasketBall Analysis", 'utf8')
+    RNFS.writeFile(path,  'utf8')
     .then((success) => {
       console.log('FILE WRITTEN!');
     })
@@ -89,7 +89,7 @@ export default class Game extends Component {
     if(this.state.stopwatchStart){
       this.setState({ homeScore: this.state.homeScore + plusScore, plusScore })
     }
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + this.state.scoredPlayer + ',' + plusScore + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + plusScore + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
     this.setState({actionType:"score"})
 
     // write the file
@@ -101,7 +101,7 @@ export default class Game extends Component {
     if(this.state.stopwatchStart){
       this.setState({ awayScore: this.state.awayScore + plusScore, plusScore })
     }
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + this.state.scoredPlayer + ',' + plusScore + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + plusScore + "," + this.state.scoredPlayer + ','  + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n"
     this.setState({actionType:"score"})
 
     if(this.state.stopwatchStart){
@@ -129,7 +129,7 @@ export default class Game extends Component {
       this.state.awaySubstition.push(this.state.scoredPlayer)
     }
     this.setState({actionType:"substution"})
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + this.state.scoredPlayer + '-' + this.state.substutionPlayer + "," + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n" 
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + this.state.scoredPlayer + '-' + this.state.substutionPlayer + "," + (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) + "\n" 
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }
@@ -146,7 +146,7 @@ export default class Game extends Component {
   }
 
   foulAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "foul," + this.state.scoredPlayer + "," +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "foul," + this.state.scoredPlayer + "," +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"foul"})
@@ -154,7 +154,7 @@ export default class Game extends Component {
   }
 
   asstAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "asst," + this.state.scoredPlayer + "," +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "asst," + this.state.scoredPlayer + "," +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"asst"})
@@ -162,14 +162,14 @@ export default class Game extends Component {
   }
 
   blkAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "blk," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "blk," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"blk"})
 
   }
   toAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "to," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "to," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"to"})
@@ -177,7 +177,7 @@ export default class Game extends Component {
   }
 
   stlAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "stl," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "stl," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"stl"})
@@ -185,7 +185,7 @@ export default class Game extends Component {
   }
 
   defAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "def," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "def," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"def"})
@@ -193,7 +193,7 @@ export default class Game extends Component {
   }
 
   offAction = () => {
-    let data = this.splitMinute() + ":" + this.splitSecond() + "," + "off," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
+    let data = "00:" + this.splitMinute() + ":" + this.splitSecond() + "," + "off," + this.state.scoredPlayer + ',' +  (this.state.homeActivePlayer.includes(this.state.scoredPlayer) ? this.state.homeName : this.state.awayName) +"\n"
     if(this.state.stopwatchStart){
       this.writeToFile(data);
     }    this.setState({actionType:"off"})
