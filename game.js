@@ -6,7 +6,10 @@ import {
   SafeAreaView,
   Text,
   Alert,
-  TouchableOpacity,TextInput,TouchableHighlight
+  TouchableOpacity,
+  TextInput,
+  TouchableHighlight,
+  ScrollView
 } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -30,6 +33,7 @@ const timer = {
  };
 
 export default class Game extends Component {
+
    currentTimeAlways ;
    currentTime;
    runAlways= false;
@@ -39,10 +43,10 @@ export default class Game extends Component {
       play: true,
       homeScore: 0,
       awayScore: 0,
-      homeActivePlayer: ['A1', 'B1', 'C1', 'D1', 'E1'],
-      awayActivePlayer: ['A2', 'B2', 'C2', 'D2', 'E2'],
-      homeSubstition: ['Y1', 'Y2', 'Y3', 'Y4', 'Y5', 'Y6', 'Y7'],
-      awaySubstition: ['Y11', 'Y22', 'Y33', 'Y44', 'Y55', 'Y66', 'Y77'],
+      homeActivePlayer: [],
+      awayActivePlayer: [],
+      homeSubstition: [],
+      awaySubstition: [],
       scoredPlayer: '',
       substutionPlayer: '',
       plusScore: 0,
@@ -63,6 +67,17 @@ export default class Game extends Component {
     this.resetStopwatch = this.resetStopwatch.bind(this);
   }
   componentDidMount() {
+    let homeActivePlayer = this.props.navigation.state.params.homeActivePlayer;
+    console.log('homeActivePlayer: ', homeActivePlayer);
+    let awayActivePlayer = this.props.navigation.state.params.awayActivePlayer;
+    console.log('awayActivePlayer: ', awayActivePlayer);
+    let homeSubstition = this.props.navigation.state.params.homeSubstition;
+    console.log('homeSubstition: ', homeSubstition);
+    let awaySubstition = this.props.navigation.state.params.awaySubstition;
+    console.log('awaySubstition: ', awaySubstition);
+    
+    this.setState({homeActivePlayer,awayActivePlayer,homeSubstition,awaySubstition})
+
     var path = RNFS.ExternalDirectoryPath + '/test.txt';
 
     RNFS.writeFile(path,  '\n')
@@ -75,6 +90,7 @@ export default class Game extends Component {
   }
 
   writeToFile = (data) => {
+    console.log('data: ', data);
         // write the file
         var path = RNFS.ExternalDirectoryPath + '/test.txt';
 
@@ -88,7 +104,7 @@ export default class Game extends Component {
 
   setScoreHome = (plusScore) => {
     if(this.state.firsttime){
-      let initialdata= this.state.homeName+this.state.awayName
+      let initialdata= this.state.homeName+","+this.state.awayName + "\n"
       this.writeToFile(initialdata)
       this.setState({firsttime : false})
     }
@@ -105,7 +121,7 @@ export default class Game extends Component {
   }
   setScoreAway = (plusScore) => {
     if(this.state.firsttime){
-      let initialdata= this.state.homeName+this.state.awayName
+      let initialdata= this.state.homeName+","+this.state.awayName + "\n"
       this.writeToFile(initialdata)
       this.setState({firsttime : false})
     }
@@ -230,10 +246,11 @@ export default class Game extends Component {
   }
  
   resetStopwatch() {
-    let data="00:"+this.splitMinute()+":"+this.splitSecond()+","+"end"+"\n"
-    if(this.state.stopwatchStart){
+    const {navigate} = this.props.navigation;
+    let data="00:"+this.splitMinute()+":"+this.splitSecond()+","+"end"
+    console.log('123123123data: ', data);
       this.writeToFile(data);
-    }    this.setState({actionType:"end"})
+      this.setState({actionType:"end"})
     
     RNFS.readDir(RNFS.ExternalDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
   .then((result) => {
@@ -270,26 +287,6 @@ export default class Game extends Component {
     }
  
     return 'no file';
-  })
-  .then((contents) => {
-    // log the file contents
-    console.log(contents);
-
-
-
-
-    // const to = ['yasarbunyamin20@gmail.com'] // string or array of email addresses
-    // email(to, {
-    //     // Optional additional arguments
-    //     // cc: ['bazzy@moo.com', 'doooo@daaa.com'], // string or array of email addresses
-    //     // bcc: 'mee@mee.com', // string or array of email addresses
-    //     subject: 'Show how to use',
-    //     body: contents,
-    //     attachment: {
-    //       path : RNFS.ExternalDirectoryPath + "test.txt",
-    //       type : "txt"
-    //     }
-    // }).catch(console.error)
   })
   .catch((err) => {
     console.log(err.message, err.code);
@@ -417,7 +414,7 @@ export default class Game extends Component {
                 />
                 </View>
           </View>
-          <View style={{ flex: 1, backgroundColor: "#d6e5fa" }}>
+          <ScrollView style={{flex: 1, backgroundColor: "#d6e5fa"}}>
             <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 10 }}>
               <TouchableOpacity onPress={() => this.defAction()} style={{ width: 50, height: 50, borderRadius: 30, backgroundColor: 'white', borderColor: 'purple', borderWidth: 2, alignItems: 'center', justifyContent: 'center' }}>
                 <Text style={{ fontSize: 20 }}>def</Text>
@@ -470,7 +467,7 @@ export default class Game extends Component {
                 ))}
               </View>
             </View>
-          </View>
+          </ScrollView>
         </View>
       </SafeAreaView>
     );

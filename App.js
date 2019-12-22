@@ -1,17 +1,31 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Button,
-  View,
-  SafeAreaView,
-  Text,
-  Alert,
-  TouchableOpacity
-} from 'react-native';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 import Game from "./game"
-export default function App() {
-  return (
-    <Game/>
-  );
-}
+import Entry from "./entry"
+
+const MainNavigator = createStackNavigator({
+  Entry: {
+    screen: Entry,
+    navigationOptions: {
+      header: null,
+    },
+  },
+  Game: {
+    screen: Game, 
+    navigationOptions: {
+      header: null,
+    },
+  }
+},
+  { headerMode: 'screen' }
+);
+
+
+
+const App = createAppContainer(MainNavigator);
+
+
+export default App;
+
 
