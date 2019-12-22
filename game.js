@@ -54,7 +54,8 @@ export default class Game extends Component {
       totalDuration: 90000,
       timerReset: false,
       stopwatchReset: false,
-      notShowFunc: false
+      notShowFunc: false,
+      firsttime: true
     };
     this.toggleTimer = this.toggleTimer.bind(this);
     this.resetTimer = this.resetTimer.bind(this);
@@ -86,6 +87,11 @@ export default class Game extends Component {
   }
 
   setScoreHome = (plusScore) => {
+    if(this.state.firsttime){
+      let initialdata= this.state.homeName+this.state.awayName
+      this.writeToFile(initialdata)
+      this.setState({firsttime : false})
+    }
     if(this.state.stopwatchStart){
       this.setState({ homeScore: this.state.homeScore + plusScore, plusScore })
     }
@@ -98,6 +104,12 @@ export default class Game extends Component {
     } 
   }
   setScoreAway = (plusScore) => {
+    if(this.state.firsttime){
+      let initialdata= this.state.homeName+this.state.awayName
+      this.writeToFile(initialdata)
+      this.setState({firsttime : false})
+    }
+
     if(this.state.stopwatchStart){
       this.setState({ awayScore: this.state.awayScore + plusScore, plusScore })
     }
@@ -209,12 +221,20 @@ export default class Game extends Component {
   }
  
   toggleStopwatch() {
-
+    let data="00:"+this.splitMinute()+":"+this.splitSecond()+","+"pause"+"\n"
+    if (this.state.stopwatchStart){
+      this.writeToFile(data);
+    } // buradan emin degilim bi sorrrrrr
     this.runAlways = true;
     this.setState({stopwatchStart: !this.state.stopwatchStart, stopwatchReset: false});
   }
  
   resetStopwatch() {
+    let data="00:"+this.splitMinute()+":"+this.splitSecond()+","+"end"+"\n"
+    if(this.state.stopwatchStart){
+      this.writeToFile(data);
+    }    this.setState({actionType:"end"})
+    
     RNFS.readDir(RNFS.ExternalDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
   .then((result) => {
     console.log('GOT RESULT', result);

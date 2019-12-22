@@ -22,8 +22,6 @@ import com.rnfs.RNFSPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
-// react-native-mail
-import com.chirag.RNMail.RNMail;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -75,7 +73,6 @@ public class PackageList {
       new RNFSPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
-      new RNMail(),
       new VectorIconsPackage()
     ));
   }
