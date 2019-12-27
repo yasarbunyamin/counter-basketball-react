@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/burakaslan/Desktop/counter-basketball-react/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b9bf1bf97c070be513dfb239393cdf99/res/values-v16/values-v16.xml",
+                    "source": "/home/burakaslan/.gradle/caches/transforms-2/files-2.1/cd6d3902c5ef4bb2a49212a123ee9a0e/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/burakaslan/.gradle/caches/transforms-2/files-2.1/69cc20f534c0b43afc7e87658e6b0067/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/5e9a3ed6666c292955a84542e5199f36/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

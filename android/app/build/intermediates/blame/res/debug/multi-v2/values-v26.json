@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bunyaminyasar/Desktop/counter-basketball-react/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/home/burakaslan/Desktop/counter-basketball-react/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/bunyaminyasar/.gradle/caches/transforms-2/files-2.1/b9bf1bf97c070be513dfb239393cdf99/res/values-v26/values-v26.xml",
+                    "source": "/home/burakaslan/.gradle/caches/transforms-2/files-2.1/69cc20f534c0b43afc7e87658e6b0067/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
